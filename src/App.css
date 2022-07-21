@@ -1,0 +1,153 @@
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+/********divider star**********/
+.astrodivider {
+  margin: 64px auto;
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+.astrodividermask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.astrodividermask:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 8px #049372;
+}
+
+.astrodivider span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -25px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #4fb39c;
+  background: #fff;
+}
+
+.astrodivider i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #68beaa;
+  text-align: center;
+  line-height: 40px;
+  font-style: normal;
+  color: #049372;
+}
+
+/********divider star**********/
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV
+320px
+480px
+600px
+768px
+900px
+1024px
+1200px */
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .category h1 {
+    font-size: 56px !important;
+  }
+
+  .offer1 {
+    margin: 0 auto;
+    margin-bottom: 60px !important;
+
+  }
+
+  .service-wrap {
+    height: auto !important;
+    width: 300px;
+    margin: 0 auto;
+
+  }
+
+  .card img {
+    width: 154px !important;
+
+  }
+
+  .card-title {
+    text-align: start !important;
+  }
+
+  .latest-news-wrap {
+    margin-bottom: 15px;
+  }
+
+  .login {
+    width: 100%;
+  }
+
+  .login input {
+    padding: 5px 47px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .category h1 {
+    font-size: 87px;
+  }
+
+  .offer1 {
+    margin-bottom: 60px !important;
+  }
+
+  .latest-news-wrap {
+    margin-bottom: 15px;
+  }
+
+  .login {
+    width: 100%;
+  }
+
+  .login input {
+    padding: 5px 47px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* category */
+  .category h1 {
+    font-size: 135px;
+  }
+
+  .about {
+    margin-top: 25px;
+  }
+
+  .offer1 {
+    margin: 0;
+    width: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {}

@@ -1,0 +1,9 @@
+.hashLoader {
+    display: block !important;
+    margin: 0 auto !important;
+    width: 92vw !important;
+    height: 100vh !important;
+    text-align: center;
+    overflow-x: hidden !important;
+    transform: rotate(0) !important;
+}

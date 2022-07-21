@@ -1,0 +1,45 @@
+/********login********/
+.login {
+    width: 400px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    height: 350px;
+    text-align: center;
+    border-radius: 19px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login input {
+    display: block;
+    margin: 25px auto;
+    padding: 5px 59px;
+    border-radius: 19px;
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+
+.login a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.login a span {
+    color: #000;
+}
+
+.btnn {
+    font-family: "Lato";
+    text-transform: capitalize;
+    font-weight: 300;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    outline: none;
+    margin-top: 14px;
+    border-radius: 20px;
+    padding: 5px 17px;
+}
+
+/***********/

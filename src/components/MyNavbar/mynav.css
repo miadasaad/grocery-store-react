@@ -1,0 +1,48 @@
+:root {
+  --main-color: #eece40;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  transition: all .5s ease-in-out;
+}
+
+.nav .container {
+  background-color: white;
+  padding: 15px;
+}
+
+.navbar-collapse a,
+.nav-icons a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+  color: black !important;
+  margin-right: 22px;
+  text-decoration: none !important;
+}
+
+.nav-icons a {
+  font-size: 28px;
+}
+
+.navbar-nav a.active,
+.navbar-nav a:hover,
+.nav-icons a:hover {
+  color: var(--main-color) !important;
+}
+
+.blue {
+  /* background-color: #7acaa6 !important; */
+  background-color: #fff !important;
+}
+
+.big {
+  box-shadow: 0px 15px 10px -15px #111;
+}

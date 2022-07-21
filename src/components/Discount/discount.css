@@ -1,0 +1,11 @@
+/************start of discounts**************/
+.discount {
+  background-color: #0099ff;
+}
+.discount p {
+  font-family: "Lobster", cursive;
+}
+.discount img {
+  width: 100%;
+}
+/************end of discounts**************/

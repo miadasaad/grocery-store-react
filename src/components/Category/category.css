@@ -1,0 +1,14 @@
+.category h1 {
+  font-size: 155px;
+  text-transform: uppercase;
+  color: #eee;
+  font-weight: bold;
+}
+.card {
+  border-color: transparent !important;
+}
+.card img {
+  max-width: 200px !important;
+  height: 200px !important;
+  position: center;
+}
