@@ -72,7 +72,7 @@ body {
   }
 
   .offer1 {
-    margin: 0 auto;
+    margin: 0 auto !important;
     margin-bottom: 60px !important;
 
   }
@@ -80,7 +80,7 @@ body {
   .service-wrap {
     height: auto !important;
     width: 300px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 
   }
 
@@ -108,7 +108,7 @@ body {
 
 @media (min-width: 576px) and (max-width: 767px) {
   .category h1 {
-    font-size: 87px;
+    font-size: 87px !important;
   }
 
   .offer1 {
