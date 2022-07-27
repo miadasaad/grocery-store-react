@@ -37,7 +37,7 @@ class SomeProducts extends Component {
                             return (
                                 <Col sm={6} md={4} lg={3} key={product.id}>
                                     <div class="service-wrap text-center">
-                                        <img src={product.url} class="hate" />
+                                        <img src={product.url} alt='product' class="hate" />
                                         <h3>{product.name}</h3>
                                         <span>${product.price}</span>
                                         <Row>
@@ -72,7 +72,6 @@ class SomeProducts extends Component {
 function mapStateToProps({ products }) {
     return {
         products: products.products.products
-        // products: products.products.products
     }
 }
 

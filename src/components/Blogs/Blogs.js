@@ -48,7 +48,7 @@ export default function Blogs() {
                                     <Col md={6} lg={4} key={index}>
                                         <div className="latest-news-wrap">
                                             <div className="news-img">
-                                                <img src={blog.imgSrc} className="img-responsive" />
+                                                <img alt='product' src={blog.imgSrc} className="img-responsive" />
                                                 <div className="deat">
                                                     <span>31</span>
                                                     <span>Dec</span>
@@ -56,7 +56,7 @@ export default function Blogs() {
                                             </div>
                                             <div className="news-content">
                                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt alias incidunt consequatur illo quam ea? Ipsum fugiat deserunt quod tempora !</p>
-                                                <a href="">Read more..</a>
+                                                <a href="more">Read more..</a>
 
                                             </div>
                                         </div>

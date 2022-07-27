@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './category.css'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Card } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper";
 import "swiper/swiper.min.css";

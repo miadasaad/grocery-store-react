@@ -42,8 +42,8 @@ export class Offers extends Component {
                     <h2 class="sad">vegetables</h2>
                     <p>Lorem ipsum dolor sit amet</p>
                     <p>consectetur adipisicing.</p>
-                    <a href="">shop now</a>
-                    <img src={offer.imgSrc} />
+                    <a href="home">shop now</a>
+                    <img src={offer.imgSrc} alt='product' />
                   </div>
                 </Col>
 

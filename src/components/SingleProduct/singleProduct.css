@@ -42,12 +42,12 @@ svg.arrow {
 
 .photo {
     padding: 30px;
-    width: 45%;
     text-align: center;
 }
 
 .photo img {
     max-height: 240px;
+    background-position: center center;
 }
 
 .description {

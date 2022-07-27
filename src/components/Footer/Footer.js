@@ -41,15 +41,15 @@ export default function () {
                             <hr className="foote"></hr>
 
                             <div className="img-footer ">
-                                <img src={img1} />
+                                <img alt='product' src={img1} />
 
-                                <img src={img2} />
+                                <img alt='product' src={img2} />
                             </div>
 
                             <div className="img-footer ">
-                                <img src={img3} />
+                                <img alt='product' src={img3} />
 
-                                <img src={img4} className="disappear" />
+                                <img alt='product' src={img4} className="disappear" />
                             </div>
                         </Col>
 

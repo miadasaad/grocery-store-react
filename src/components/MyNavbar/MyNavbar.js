@@ -7,7 +7,7 @@ import { connect } from 'react-redux'
 import { FaCartPlus } from 'react-icons/fa'
 import { RiHeartAddFill } from 'react-icons/ri'
 
-class MyNavbar extends React.Component {
+class MyNavbar extends Component {
   state = {
     className1: "",
     className2: ""

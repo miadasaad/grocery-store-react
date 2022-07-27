@@ -12,7 +12,6 @@ import potato from '../images/potato.png'
 import tomato from '../images/tomato.jpg'
 import wheat from '../images/wheat.png'
 import strawberry from '../images/fresh-strawberry-solated-white-background-69146635.jpg'
-import lemon from '../images/lemon-isolated-24834437.jpg'
 import pomegranate from '../images/juicy-pomegranate-its-half-leaves-16537522.jpg'
 
 
@@ -20,10 +19,10 @@ import pomegranate from '../images/juicy-pomegranate-its-half-leaves-16537522.jp
 export let products = [
     {
         id: 0,
-        name: 'Lemon',
+        name: 'Almonds',
         price: '9.00',
         count: 1,
-        url: lemon,
+        url: almonds,
         description: "",
     },
     {
@@ -122,7 +121,22 @@ export let products = [
         url: wheat,
         description: "",
     },
-
+    {
+        id: 13,
+        name: 'Pomegranate',
+        price: '9.00',
+        count: 1,
+        url: pomegranate,
+        description: "",
+    },
+    {
+        id: 14,
+        name: 'Broccoli',
+        price: '9.00',
+        count: 1,
+        url: broccoli,
+        description: "",
+    }
 ]
 
 let cart = {};

@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import './singleProduct.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { saveProductToCart, saveProductToWishlist } from '../Action/Shared';
+import Sliding from '../Sliding/Sliding'
 
 function SingleProduct(props) {
     const params = useParams();
@@ -16,33 +17,35 @@ function SingleProduct(props) {
         props.dispatch(saveProductToWishlist(product))
     }
 
-    console.log(props.wishlist);
-    console.log("uyiutyut");
     return (
-        <div class="cardProduct">
-            <Container>
-                <Row>
-                    <Col md={5}>
-                        <div class="photo">
-                            <img src={currentProduct.url} />
-                        </div>
-                    </Col>
-                    <Col md={7}>
-                        <div class="description">
-                            <h2>Fresh Food</h2>
-                            <h4>{currentProduct.name}</h4>
-                            <h1>${currentProduct.price}</h1>
-                            <p>Classic Peace Lily is a spathiphyllum floor plant arranged in a bamboo planter with a blue & red ribbom and butterfly pick.</p>
-                            <button onClick={() => { handleProduct(currentProduct) }}>Add to Cart</button>
-                            <button onClick={() => { wishlistProduct(currentProduct) }}>Wishlist</button>
-                        </div>
-                    </Col>
-                </Row>
+        <div>
+            <Sliding />
+            <div class="cardProduct">
+                <Container>
+                    <Row>
+                        <Col md={5}>
+                            <div class="photo">
+                                <img src={currentProduct.url} alt='product' />
+                            </div>
+                        </Col>
+                        <Col md={7}>
+                            <div class="description">
+                                <h2>Fresh Food</h2>
+                                <h4>{currentProduct.name}</h4>
+                                <h1>${currentProduct.price}</h1>
+                                <p>Classic Peace Lily is a spathiphyllum floor plant arranged in a bamboo planter with a blue & red ribbom and butterfly pick.</p>
+                                <button onClick={() => { handleProduct(currentProduct) }}>Add to Cart</button>
+                                <button onClick={() => { wishlistProduct(currentProduct) }}>Wishlist</button>
+                            </div>
+                        </Col>
+                    </Row>
 
-            </Container>
+                </Container>
 
 
+            </div>
         </div>
+
     )
 }
 function mapStateToProps({ products, wishlist }) {
