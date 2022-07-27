@@ -35,7 +35,7 @@ class Products extends Component {
           <Row>
             {myproducts.map(product => {
               return (
-                <Col xs={6} md={4} lg={3} key={product.id}>
+                <Col sm={6} md={4} lg={3} key={product.id}>
                   <div class="service-wrap text-center">
                     <img src={product.url} alt='product' class="hate" />
                     <h3>{product.name}</h3>
